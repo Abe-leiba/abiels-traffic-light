@@ -1,9 +1,9 @@
 
 
-
-import { useState } from "react";
-
 import TrafficLight from "./TrafficLight";
+
+
+
 
 //create your first component
 const Home = () => {
@@ -11,9 +11,11 @@ const Home = () => {
 
         
          return (
+
 			<div className="text-center mt-5">
+
 				<TrafficLight />
-			<div/>
+			</div>
 	);
 };
 
